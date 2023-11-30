@@ -2,6 +2,7 @@ import tourImg1 from "./images/tour-1.jpeg";
 import tourImg2 from "./images/tour-2.jpeg";
 import tourImg3 from "./images/tour-3.jpeg";
 import tourImg4 from "./images/tour-4.jpeg";
+import tourImg5 from "./images/tour-5.jpeg";
 
 export const navLinks = [
   { id: 1, href: "#home", text: "Home" },
@@ -76,5 +77,15 @@ export const tours = [
     country: "Kenya",
     duration: "20 Days",
     price: "From $ 3300",
+  },
+  {
+    id: 5,
+    title: "malawi highlights",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    date: "december 24th, 2023",
+    img: tourImg5,
+    country: "Malawi",
+    duration: "140 Days",
+    price: "From $ 2400",
   },
 ];
